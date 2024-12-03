@@ -4,7 +4,7 @@ module.exports = {
       return [
         {
           source: '/api/:path*',
-          destination: 'http://localhost:5000/api/:path*', // Backend URL
+          destination: 'https://nestedpostsystem.onrender.com/api/:path*', // Backend URL
         },
       ];
     },
